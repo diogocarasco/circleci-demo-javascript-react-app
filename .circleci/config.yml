@@ -12,7 +12,7 @@ jobs:
       - run:
           name: echo hi
           command: echo "hi"
-      - slack/notify
+
 
 workflows:
     version: 2
